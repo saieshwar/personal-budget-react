@@ -1,7 +1,9 @@
 import React from 'react';
+import PieAndD3Charts from '../PieAndD3Charts/PieAndD3Charts';
 
 
 function HomePage() {
+
   return (
     <div className="container center">
 
@@ -71,6 +73,8 @@ function HomePage() {
             </p>
         </div>
 
+            <PieAndD3Charts/>
+        
         <div className="text-box">
             <h1>Chart</h1>
             <p>
